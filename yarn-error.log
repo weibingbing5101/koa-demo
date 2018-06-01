@@ -1,0 +1,40 @@
+Arguments: 
+  /Users/weiweibing/.nvm/versions/node/v8.9.0/bin/node /usr/local/bin/yarn add koa-bodyparser
+
+PATH: 
+  /Users/weiweibing/.nvm/versions/node/v8.9.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/jarrahwu/Documents/android-ndk-r8d:/Users/weiweibing/gradle-4.6/bin
+
+Yarn version: 
+  0.22.0
+
+Node version: 
+  8.9.0
+
+Platform: 
+  darwin x64
+
+npm manifest: 
+  {
+    "name": "koa-demo",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "koa": "^2.5.1",
+      "koa-router": "^7.4.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: EACCES: permission denied, mkdir '/Users/weiweibing/Desktop/koa-demo/node_modules/bytes'
