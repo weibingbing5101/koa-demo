@@ -184,7 +184,7 @@ app.use(require('./routers/signin.js').routes())
 
 app.use(router.routes())
 
-app.listen(3000, () => {
+app.listen(3002, () => {
     console.log('server is running at http://localhost:3000')
 })
 
